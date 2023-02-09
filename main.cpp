@@ -245,7 +245,7 @@ int main()
       cout << "[40;36m--> Tresc powiadomienia:[97m " << task[j].tresc << endl;
       cout << "[40;37m+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[97m " << endl;
       system("start Reminder.vbs");
-      system("timeout 15 /NOBREAK & taskkill /f /im vbscript.exe /t");
+      system("timeout 15 /NOBREAK & taskkill /f /im wscript.exe /t");
       cout << "Pomyślnie zamknięto proces VBSCRIPT odpowiadający za odtwarzanie dźwięku .mp3" << endl;
       system("pause >nul");
     }
